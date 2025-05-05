@@ -39,4 +39,4 @@ jobs:
           pytest test.py --junitxml=test-results.xml
 
       - name: Push Docker Image
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/mlops-model1:latest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/post_model:latest
